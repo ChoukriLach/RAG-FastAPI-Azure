@@ -40,7 +40,7 @@ jobs:
       with:
         app-name: 'winereco'
         images: 'ragazurefastapi.azurecr.io/ragazurefastapi:${{ github.sha }}'
-        slot-name: 'staging'
+        slot-name: 'pre-production'
         
         
     - name: Azure logout
