@@ -48,7 +48,7 @@ def assistant(query , context) :
 
     result = response['choices'][0]['message']['content']
 
-    return result
+    return 'Hello' + result
 
 class Body(BaseModel):
     query : str 
