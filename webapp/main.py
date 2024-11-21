@@ -48,7 +48,7 @@ def assistant(query , context) :
 
     result = response['choices'][0]['message']['content']
 
-    return 'Hello' + result
+    return result
 
 class Body(BaseModel):
     query : str 
@@ -59,5 +59,5 @@ def ask(body : Body) :
     search_result = search(body.query)
     chat_bot_response = assistant(body.query , search_result)
 
-    return {'response' : chat_bot_response} 
+    return {'res' : chat_bot_response} 
 
