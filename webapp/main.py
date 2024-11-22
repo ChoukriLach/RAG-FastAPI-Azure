@@ -59,5 +59,5 @@ def ask(body : Body) :
     search_result = search(body.query)
     chat_bot_response = assistant(body.query , search_result)
 
-    return {'The response' : chat_bot_response} 
+    return {'GPT response' : chat_bot_response} 
 
