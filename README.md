@@ -1,0 +1,1 @@
+This project demonstrates deploying a secure, scalable Generative AI (GenAI) solution on Azure using a Retrieval-Augmented Generation (RAG) architecture and Azure best practices. Leveraging Azure OpenAI and Python FastAPI framework, it ensures efficient data retrieval, security, and an intuitive user experience.
